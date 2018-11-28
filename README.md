@@ -24,7 +24,7 @@ Right-now it only searches for the CryptoAuth device on the *main* I2C bus.
 1. Build via:
 
     ```
-    $ mbed compile -m YOUR_TARGET_NAME -t GCC_ARM
+    $ mbed compile -m SAML21J18A -t GCC_ARM --profile=./tiny-release.json
     ```
 
 **Online Compiler**

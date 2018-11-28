@@ -126,6 +126,7 @@ static t_menu_info mas_menu_info[] =
 #include "cmd-processor.h"
 int main(int argc, char* argv[])
 {
+    printf("Hello!!!!\n");
 
 #if defined(__MBED__)
     mbed_trace_init();

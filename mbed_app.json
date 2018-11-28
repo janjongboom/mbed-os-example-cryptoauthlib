@@ -1,4 +1,8 @@
 {
+    "macros": [
+        "I2C_SDA=PA08",
+        "I2C_SCL=PA09"
+    ],
     "target_overrides": {
         "*": {
             "platform.stdio-baud-rate": 115200,
