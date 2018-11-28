@@ -36,9 +36,9 @@
 #endif
 #endif
 
-#define DO_NOT_TEST_BASIC_UNIT
+#undef DO_NOT_TEST_BASIC_UNIT
 #define DO_NOT_TEST_CERT
-#define DO_NOT_TEST_SW_CRYPTO
+#undef DO_NOT_TEST_SW_CRYPTO
 
 #include <stdio.h>
 #include <string.h>
