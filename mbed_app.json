@@ -1,4 +1,9 @@
 {
+    "config": {
+        "main-stack-size": {
+            "value": 2048
+        }
+    },
     "macros": [
         "I2C_SDA=PA08",
         "I2C_SCL=PA09"
