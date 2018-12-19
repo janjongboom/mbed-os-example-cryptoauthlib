@@ -3,6 +3,7 @@
         "*": {
             "platform.stdio-baud-rate": 115200,
             "platform.stdio-convert-newlines": true,
+            "cryptoauthlib.i2c_force_frequency": 100000,
             "mbed-trace.enable": 1
         },
         "NRF52_DK": {
